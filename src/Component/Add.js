@@ -18,6 +18,7 @@ export default function Add() {
         <div>
             <input type="text" placeholder='Enter new item' value={name} onChange={(event) => { setName(event.target.value) }} />
             <button onClick={add}>Submit</button>
+            <p>in console you can find updated data</p>
         </div>
     )
 }
